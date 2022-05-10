@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4 ý 2</title>
+</head>
+<body>
+<td>a<input type="text" id="soa" size="6px"></td>
+<td>b<input type="text" id="sob" size="6px"></td>
+<td><input type="button" value="tinh" onclick="tinhToan()"></td>
+<p id="Result"></p>
+</body>
+<script !src="">
+    function tinhToan() {
+        let a = document.getElementById("soa").value;
+        let b = document.getElementById("sob").value;
+        s = parseFloat(a)**2;
+        sb= Math.pow(parseFloat(a), parseFloat(b));
+        document.getElementById("Result").innerText= "Tích là " + s + "Mũ là" + sb;
+    }
+
+
+</script>
+</html>

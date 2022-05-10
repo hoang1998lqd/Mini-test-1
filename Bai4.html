@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+
+  <table>
+      <p id="first"></p>
+      <td>Chiều dài<input type="text" id="chieudai" size="4px"> </td>
+      <br>
+      <td>chiều rộng<input type="text" id="chieurong" size="4px"> </td>
+      <td><input type="button" value="Tính" onclick="hinhCn()"></td>
+  </table>
+
+</body>
+<script !src="">
+    function hinhCn() {
+        if (a&&b > 0)
+        let a = document.getElementById("chieudai").value;
+        let b = document.getElementById("chieurong").value;
+        p = parseFloat(a) *2 + parseFloat(b) *2;
+        s = parseFloat(a) * parseFloat(b);
+        document.getElementById("first").innerText= "Diện tích là " + s + "Chu vi là" + p;
+
+    }
+</script>
+</html>

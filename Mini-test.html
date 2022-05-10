@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Test</title>
+</head>
+<body>
+<!--// câu 1 : câu lệnh hiện thị 1 hộp thoại.-->
+<!--// let a = prompt("nhap so  ")-->
+<!--// Nêu cú pháp hiển thị tên bạn lên hộp thoại-->
+<!--// let hoten = prompt("nhap ten")-->
+<!--// alert(hoten)-->
+<!--// Câu 2 Câu lệnh nào để nhận giá trị từ 1 hộp thoại-->
+<!--// Viết code nhận giá trị từ họp thoại, hiển thị bình phương của số đó ra hộp thoại-->
+<!--// let a = parseInt(prompt("Nhap gia tri"))-->
+<!--//     let binhpPhuong = (a *a)-->
+<!--//     alert(binhpPhuong)-->
+<h1 id="s"></h1>
+    <b><input type="text" id="soa"></b> <br>
+   <b><input type="text" id="sob"></b>
+    <input onclick="tinh()" type="button" value="Tính">
+
+
+</body>
+<script !src="">
+    function tinh(){
+        let a = parseInt(document.getElementById('soa').value)
+        let b = parseInt(document.getElementById('sob').value)
+        S = a * b
+        document.getElementById("s").innerHTML = S;
+    }
+
+    // <!--// Bài 3:-->
+    // inputa= prompt("Nhập giá trị của a");
+    // inputb= prompt("Nhập giá trị của b");
+    // let a= parseFloat(inputa);
+    // let b= parseFloat(inputb);
+    // Tich= a * b
+    // alert("Tích 2 số là " + Tich)
+</script>
+</html>
